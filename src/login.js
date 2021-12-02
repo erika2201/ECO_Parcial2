@@ -21,6 +21,7 @@ function login(e, event){
         window.location.href = "vote.html";
     })
     .catch((error) => {
+        alert("Revisa tus datos");
         console.log(error.message);
     });
 }

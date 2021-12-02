@@ -33,7 +33,7 @@
 
  .bookPoints{
      position: relative;
-     left: 70%;
+     left: 80%;
      bottom: 32px;
      font-size: small;
      color:navy;
@@ -53,7 +53,7 @@
      border-color: whitesmoke;
 
      position: relative;
-     bottom: 40px;
+     bottom: 43px;
  }
 
  .sendBtn{
@@ -63,5 +63,5 @@
     border-color: navy;
 
     position: relative;
-    bottom: 40px;
+    bottom: 43px;
 }
