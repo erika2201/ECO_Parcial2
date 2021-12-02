@@ -1,6 +1,6 @@
 //Es como una clase que representa una tarjeta
 //Genera el HTML necesario para visulizar mis 
-import { getDatabase, ref, push } from 'firebase/database';
+import { getDatabase, ref, push, set } from 'firebase/database';
 
 export class bookCard {
 
@@ -44,9 +44,9 @@ export class bookCard {
             if(parseFloat(inputpoints.value) >= 0 && 
                parseFloat(inputpoints.value) <= 5){
                 //Variable para los punticos
-                const points = {
+                const pointsprom = {
                     //La variable cambia al valor ingresado
-                    points: parseFloat(inputpoints.value)
+                    pointsprom: parseFloat(inputpoints.value)
 
                 }
                 //Como lo de crear usuarios/candidatos/libros de otros labs
@@ -55,6 +55,7 @@ export class bookCard {
                 set(newPointRef, points);
 
                 //De alguna manera calcular el promedio
+                console.log("Tranquilo, ahorita calculo este asunto");
                 
             } else {
                 //Si el número es diferente al rango
