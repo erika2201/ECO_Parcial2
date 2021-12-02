@@ -11,9 +11,7 @@ const firebaseApp = initializeApp(firebaseAppConfig);
 //Instancias de los objetos
 const container = document.getElementById("bookContainer");
 
-function getBook(){
-    console.log("me wa matá wiiiiiii");
-   
+function getBook(){   
     const db = getDatabase();
     const dbRef = ref(db, 'books');
 
