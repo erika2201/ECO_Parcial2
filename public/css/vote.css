@@ -1,15 +1,38 @@
-#bookContainer{
-    display: flex;
-    flex-direction: column;
+#title{
+    padding-top: 2%;
+    color: navy;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: medium;
+ } 
 
+
+#subtitle{
+    color:gray;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: small;
+ } 
+
+ .book-card{
+    font-family: Helvetica;
+    background-color:lightskyblue;
+    border-radius: 2px;
     width: 30%;
+
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    
-} 
+ }
 
-#bookContainer *{
-    width: 80%;
-    margin: 5px 16px 5px 16px;
-} 
+ .bookName{
+     margin-left: 5px;
+     font-size: medium;
+ }
+
+ .bookPoints{
+     position: relative;
+     left: 72%;
+     bottom: 18px;
+     font-size: small;
+ }

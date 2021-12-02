@@ -2,7 +2,6 @@ import{initializeApp} from "firebase/app";
 import{getDatabase, ref, set, onValue, push} from "firebase/database";
 
 import {getFirebaseConfig} from "./firebase-config";
-import{bookCard} from "./bookcard";
 
 //Inicializar firebase
 const firebaseAppConfig = getFirebaseConfig();

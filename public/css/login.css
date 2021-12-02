@@ -22,58 +22,17 @@
 
 #subtitle{
    padding-top: 2%;
-   color:black;
+   color: navy;
    text-align: center;
    font-family: Helvetica;
    font-size: medium;
 } 
 
-#bookList{
-    font-family: Helvetica;
-    font-size: medium;
 
-    width: 25%;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
- } 
-
-
- .book-card{
-    background-color:lightgray;
-    margin-bottom: 25px;
-    border-radius: 5px;
-}
-
- .book-username{
-    display: flex;
-    position: relative;
-    left: 80%;
-    margin-bottom: 10px;
-
-    font-family: Helvetica;
-    font-size: x-small;
- }
-
- .answer-input{
-     width: 75%;
-     height: 25px;
-     margin-right: 5px;
- }
-
-
-#answerBtn, #loginBtn, .answer-button{
+#loginBtn{
     height: 30px;
     border-radius: 5px;
-    background-color:cornflowerblue;
-    border-color: cornflowerblue;
-}
-
-.answer-card{
-    font-family: Helvetica;
-    font-size: small;
-}
-
-.answer-text{
-    margin: 5px;
+    color: white;
+    background-color: navy;
+    border-color: navy;
 }
