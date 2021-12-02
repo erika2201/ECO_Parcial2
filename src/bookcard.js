@@ -47,7 +47,6 @@ export class bookCard {
                 const score = {
                     //La variable cambia al valor ingresado
                     score: parseFloat(inputpoints.value)
-
                 }
                 //Como lo de crear usuarios/candidatos/libros de otros labs
                 const db = getDatabase();
@@ -60,7 +59,7 @@ export class bookCard {
                 
             } else {
                 //Si el número es diferente al rango
-                alert("El N° de estrellas debe ser entre 0 y 5");
+                alert("El N° de estrellas debe ser entre 1 y 5");
             }
         })
 
